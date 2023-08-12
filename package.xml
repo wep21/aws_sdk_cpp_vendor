@@ -12,6 +12,7 @@
   <buildtool_depend>curl</buildtool_depend>
 
   <depend>libssl-dev</depend>
+  <depend>zlib</depend>
 
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>
