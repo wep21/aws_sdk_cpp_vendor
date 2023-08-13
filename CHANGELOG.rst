@@ -2,8 +2,8 @@
 Changelog for package aws_sdk_cpp_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.1.1 (2023-08-14)
+------------------
 * fix: add missing dependency
 * Contributors: wep21
 
