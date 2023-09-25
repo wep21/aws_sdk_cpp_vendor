@@ -8,7 +8,10 @@ find_package(AWSSDK QUIET)
 ament_vendor(${PROJECT_NAME}
   SATISFIED ${AWSSDK_FOUND}
   VCS_URL https://github.com/aws/aws-sdk-cpp.git
-  VCS_VERSION 1.11.135
+  VCS_VERSION 1.11.169
+  CMAKE_ARGS
+    -DENABLE_TESTING:BOOL=OFF
+    -DAUTORUN_UNIT_TESTS:BOOL=OFF
 )
 
 if(BUILD_TESTING)
