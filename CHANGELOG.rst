@@ -2,8 +2,8 @@
 Changelog for package aws_sdk_cpp_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.2.0 (2023-09-26)
+------------------
 * feat: update sdk version and cmake options
 * Contributors: wep21
 
