@@ -2,7 +2,7 @@
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
   <name>aws_sdk_cpp_vendor</name>
-  <version>0.2.0</version>
+  <version>0.2.1</version>
   <description>A vendor package for aws-sdk-cpp</description>
   <maintainer email="daisuke.nishimatsu1021@gmail.com">Daisuke Nishimatsu</maintainer>
   <license>Apache License 2.0</license>
