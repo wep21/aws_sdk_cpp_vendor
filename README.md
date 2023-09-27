@@ -9,5 +9,9 @@ vendor package for [AWS SDK for C++](https://github.com/aws/aws-sdk-cpp)
 
 # CMakeLists.txt
 find_package(aws_sdk_cpp_vendor REQUIRED)
-find_package(AWSSDK REQUIRED COMPONENTS s3)
+find_package(AWSSDK REQUIRED COMPONENTS core)
+
+target_link_libraries(your_target
+  aws-cpp-sdk-core
+)
 ```
