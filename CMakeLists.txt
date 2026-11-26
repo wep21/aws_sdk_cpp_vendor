@@ -16,6 +16,9 @@ ament_vendor(${PROJECT_NAME}
     -DENABLE_UNITY_BUILD:BOOL=OFF
     -DENABLE_TESTING:BOOL=OFF
     -DBUILD_ONLY:STRING=${SERVICE}
+    # CMake >= 4.0 removed compatibility with cmake_minimum_required < 3.5,
+    # which some bundled aws-crt-cpp submodules still declare.
+    -DCMAKE_POLICY_VERSION_MINIMUM=3.5
 )
 
 if(BUILD_TESTING)
